@@ -1,0 +1,44 @@
+/* General */
+body {
+    background-color: #555555;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Slider */
+.slider {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.slider__central {
+    max-width: 1024px;
+}
+
+.slider__image {
+    width: 100%;
+}
+
+.slider__side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    width: 50px;
+    height: 100%;
+}
+
+.button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
